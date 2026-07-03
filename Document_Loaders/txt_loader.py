@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #creating model
-
 model = HuggingFaceEndpoint(
     repo_id = "google/gemma-4-31B-it:novita"
     # repo_id= "Qwen/Qwen3.6-27B:ovhcloud"
@@ -14,8 +13,7 @@ model = HuggingFaceEndpoint(
 chat = ChatHuggingFace(llm = model)
 
 #Loading DOC in RAM
-
-loader = TextLoader('test.txt')
+loader = TextLoader('transcript.txt')
 doc = loader.load()
 query = doc[0].page_content
 # print(doc)
