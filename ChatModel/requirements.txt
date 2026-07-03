@@ -7,6 +7,8 @@ huggingface-hub
 python-dotenv 
 numpy 
 scikit-learn
+langchain-text-splitters
+
 
 
 
