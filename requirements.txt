@@ -8,6 +8,10 @@ python-dotenv
 numpy 
 scikit-learn
 langchain-text-splitters
+chromadb
+openai 
+tiktoken
+langchain_openai
 
 
 
