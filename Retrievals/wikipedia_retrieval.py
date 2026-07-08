@@ -9,7 +9,7 @@ retriever = WikipediaRetriever(
     load_all_available_meta=False,
 )
 
-query = "who is the founder of apple?"
+query = "who is Albert Einstien?"
 
 # Fetch documents
 docs = retriever.invoke(query)
