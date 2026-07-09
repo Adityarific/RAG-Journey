@@ -12,7 +12,8 @@ chromadb
 openai 
 tiktoken
 langchain_openai
-
+wikipedia
+langchain-community
 
 
 
