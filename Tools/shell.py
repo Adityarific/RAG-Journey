@@ -4,7 +4,7 @@ from langchain_community.tools import ShellTool
 shell = ShellTool()
 
 # Correct way to invoke by passing arguments as a structured dictionary
-result = shell.invoke({"commands": ["whoami"]})
+result = shell.invoke({"commands": ["code ."]})
 
 # Print the system user output
 print(result)

@@ -4,4 +4,4 @@ search = DuckDuckGoSearchRun()
 
 result = search.invoke("todays gold rate in kanpur")
 
-print(result)
+print(result) 
